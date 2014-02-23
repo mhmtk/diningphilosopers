@@ -1,4 +1,6 @@
-package com.tendaitt.diningphilosophers;
+package com.opsys.diningphilosophers;
+
+import com.tendaitt.diningphilosophers.R;
 
 import android.os.Bundle;
 import android.app.Activity;
