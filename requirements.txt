@@ -1,0 +1,8 @@
+User:
+	- Clicks on philosopher to designate hungry
+	- Algorithm will either allow philosopher to eat or will make him/her wait
+	- user clicks on philosopher to make it stop eating, stop being hungry
+	
+	Philosophers can be hungry, eating, or thinking
+	
+	Print out/report how much time each philosopher spent thinking, hungry, eating
