@@ -8,9 +8,58 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".DiningMain" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+   <View
+       android:id="@+id/philospher_table"
+       android:layout_width="175dp"
+       android:layout_height="175dp"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="104dp"
+       android:background="@drawable/philosopher_table" />
 
+   <View
+       android:id="@+id/philospher1"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_alignParentLeft="true"
+       android:layout_centerVertical="true"
+       android:background="@drawable/philosopher_portrait" />
+
+   <View
+       android:id="@+id/philospher5"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_below="@+id/philospher_table"
+       android:layout_toRightOf="@+id/philospher1"
+       android:background="@drawable/philosopher_portrait" />
+
+   <View
+       android:id="@+id/philospher3"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_alignRight="@+id/philospher_table"
+       android:layout_alignTop="@+id/philospher5"
+       android:layout_marginRight="33dp"
+       android:layout_marginTop="14dp"
+       android:background="@drawable/philosopher_portrait" />
+
+   <View
+       android:id="@+id/philospher4"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_alignRight="@+id/philospher2"
+       android:layout_below="@+id/philospher1"
+       android:layout_marginRight="15dp"
+       android:layout_marginTop="14dp"
+       android:background="@drawable/philosopher_portrait" />
+
+   <View
+       android:id="@+id/philospher2"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_alignBottom="@+id/philospher1"
+       android:layout_marginBottom="17dp"
+       android:layout_toRightOf="@+id/philospher_table"
+       android:background="@drawable/philosopher_portrait" />
+  
 </RelativeLayout>

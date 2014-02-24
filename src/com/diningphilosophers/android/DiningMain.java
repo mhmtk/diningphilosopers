@@ -1,4 +1,4 @@
-package com.opsys.diningphilosophers;
+package com.diningphilosophers.android;
 
 import com.tendaitt.diningphilosophers.R;
 
