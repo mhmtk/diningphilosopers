@@ -27,12 +27,12 @@ public final class R {
     }
     public static final class id {
         public static final int action_settings=0x7f080006;
-        public static final int philospher1=0x7f080002;
-        public static final int philospher2=0x7f080004;
-        public static final int philospher3=0x7f080003;
-        public static final int philospher4=0x7f080001;
-        public static final int philospher5=0x7f080000;
-        public static final int philospher_table=0x7f080005;
+        public static final int philospher1=0x7f080001;
+        public static final int philospher2=0x7f080003;
+        public static final int philospher3=0x7f080002;
+        public static final int philospher4=0x7f080004;
+        public static final int philospher5=0x7f080005;
+        public static final int philospher_table=0x7f080000;
     }
     public static final class layout {
         public static final int activity_dining_main=0x7f030000;
