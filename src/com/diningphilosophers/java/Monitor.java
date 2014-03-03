@@ -10,6 +10,6 @@ package com.diningphilosophers.java;
  */
 public class Monitor {
 	
-	
+	 
 
 }
