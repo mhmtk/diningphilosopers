@@ -21,6 +21,7 @@ public class Philosopher {
 	private double eatingTimeCounter;
 	private double thinkingTimeCounter;
 	
+	private int ID;
 	
 	public Philosopher(int ID, Activity activity, View view){
 		
@@ -30,6 +31,37 @@ public class Philosopher {
 		this.thinkingTimes = new ArrayList<Double>();
 		this.hungryTimes = new ArrayList<Double>();
 		this.eatingTimes = new ArrayList<Double>();
+		
+		this.ID = ID;
+		
+	}
+
+
+	public boolean isEating() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+
+	public int getID() {
+		return this.ID;
+	}
+
+
+	public void setThinking() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	public boolean isHungry() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+
+	public void setEating() {
+		// TODO Auto-generated method stub
 		
 	}
 	
